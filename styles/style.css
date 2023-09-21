@@ -52,7 +52,7 @@ ol {
   flex-direction: row;
   align-items: flex-end;
   column-gap: 30px;
-  block-size: 100%;
+  block-size: 800px;
   inline-size: 100%;
   grid-auto-flow: column;
   padding: 133px 30px;
@@ -199,10 +199,10 @@ ol {
 
 /*далее боковая панель*/
 .content__details {
-  display: flex;
+  /*display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  gap: 23px;
+  gap: 23px;*/
   inline-size: 100%;
   block-size: 100%;
 }
@@ -215,7 +215,7 @@ ol {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
-  margin:0;
+  margin-block-end:23px;
 }
 
 .content__accent {
@@ -223,8 +223,6 @@ ol {
 }
 
 .content__list {
-  /*display: flex;
-  gap: 30px;*/
   position:relative;
   block-size: 298px;
   flex-direction: column;
