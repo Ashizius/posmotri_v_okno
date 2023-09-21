@@ -228,7 +228,7 @@ ol {
   position:relative;
   block-size: 298px;
   flex-direction: column;
-  overflow: hidden scroll;
+  overflow: hidden auto;
 }
 
 .content__list-item:not(:nth-last-of-type(2)) {
